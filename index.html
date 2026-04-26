@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PM Intelligence Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚀 PM Intelligence Hub</h1>
+<p class="subtitle">Your Daily AI-Powered Product Radar</p>
+
+<div id="content"></div>
+
 <script>
 fetch('data.json')
   .then(response => response.json())
@@ -5,17 +18,47 @@ fetch('data.json')
     const container = document.getElementById("content");
     container.innerHTML = "";
 
+    // ARTICLES
+    container.innerHTML += "<h2>🔥 AI & Product Insights</h2>";
+
     data.articles.forEach(item => {
       container.innerHTML += `
         <div class="card">
           <h3>${item.title}</h3>
-          <p><b>Category:</b> ${item.category}</p>
+          <p class="category">${item.category}</p>
           <p>${item.summary}</p>
-          <p><b>Why PM Should Care:</b> ${item.why_pm_care}</p>
-          <p><b>Skills Mentioned:</b> ${item.skills.join(", ")}</p>
-          <a href="${item.link}" target="_blank">Read More</a>
+          <p><strong>Why PM Should Care:</strong> ${item.why_pm_care}</p>
+          <p><strong>Skills Mentioned:</strong> ${item.skills.join(", ")}</p>
+          <a href="${item.link}" target="_blank">Read More →</a>
+        </div>
+      `;
+    });
+
+    // TRENDING SKILLS
+    container.innerHTML += "<h2>📈 Trending PM Skills</h2>";
+
+    data.trending_skills.forEach(skill => {
+      container.innerHTML += `
+        <div class="card skill">
+          ${skill[0]} — ${skill[1]} mentions
+        </div>
+      `;
+    });
+
+    // JOBS
+    container.innerHTML += "<h2>💼 Latest PM Jobs</h2>";
+
+    data.jobs.forEach(job => {
+      container.innerHTML += `
+        <div class="card">
+          <h3>${job.title}</h3>
+          <p><strong>Skills:</strong> ${job.skills.join(", ")}</p>
+          <a href="${job.link}" target="_blank">View Job →</a>
         </div>
       `;
     });
   });
 </script>
+
+</body>
+</html>

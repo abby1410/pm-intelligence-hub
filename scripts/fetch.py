@@ -5,16 +5,16 @@ from datetime import datetime
 from openai import OpenAI
 
 api_key = os.getenv("OPENAI_API_KEY")
-
-# If no API key, skip AI processing safely
 client = OpenAI(api_key=api_key) if api_key else None
 
-feeds = [
+news_feeds = [
     "https://techcrunch.com/tag/artificial-intelligence/feed/",
     "https://www.producthunt.com/feed"
 ]
 
-def analyze_for_pm(text):
+job_feed = "https://remoteok.com/remote-product-manager-jobs.rss"
+
+def analyze_article(text):
     if not client:
         return {
             "summary": text[:200],
@@ -32,7 +32,7 @@ def analyze_for_pm(text):
                     "content": f"""
 Analyze this for product managers.
 
-Return STRICT JSON only:
+Return STRICT JSON:
 {{
   "summary": "3 bullet summary",
   "category": "AI / Strategy / Infra / Startup",
@@ -47,24 +47,51 @@ Content:
             ]
         )
 
-        content = response.choices[0].message.content.strip()
-        return json.loads(content)
+        return json.loads(response.choices[0].message.content.strip())
 
-    except Exception as e:
+    except:
         return {
             "summary": text[:200],
             "category": "General",
             "skills": [],
-            "why_pm_care": f"AI processing failed: {str(e)}"
+            "why_pm_care": "AI processing failed."
         }
 
-articles = []
+def extract_job_skills(text):
+    if not client:
+        return []
 
-for url in feeds:
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"""
+Extract professional skills/tools from this job description.
+Return JSON array only.
+
+{text}
+"""
+                }
+            ]
+        )
+
+        return json.loads(response.choices[0].message.content.strip())
+
+    except:
+        return []
+
+articles = []
+jobs = []
+skill_counter = {}
+
+# FETCH ARTICLES
+for url in news_feeds:
     feed = feedparser.parse(url)
 
     for entry in feed.entries[:3]:
-        analysis = analyze_for_pm(entry.summary[:1500])
+        analysis = analyze_article(entry.summary[:1500])
 
         articles.append({
             "title": entry.title,
@@ -76,8 +103,29 @@ for url in feeds:
             "date": str(datetime.now())
         })
 
+# FETCH JOBS
+feed = feedparser.parse(job_feed)
+
+for entry in feed.entries[:5]:
+    skills = extract_job_skills(entry.summary[:1500])
+
+    for skill in skills:
+        skill_counter[skill] = skill_counter.get(skill, 0) + 1
+
+    jobs.append({
+        "title": entry.title,
+        "link": entry.link,
+        "skills": skills
+    })
+
 output = {
-    "articles": articles
+    "articles": articles,
+    "jobs": jobs,
+    "trending_skills": sorted(
+        skill_counter.items(),
+        key=lambda x: x[1],
+        reverse=True
+    )[:10]
 }
 
 with open("data.json", "w") as f:
