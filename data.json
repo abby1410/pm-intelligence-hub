@@ -1,52 +1,58 @@
-[
-  {
-    "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
-    "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
-    "link": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/"
-  },
-  {
-    "title": "Meta bought 1 GW of solar this week",
-    "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
-    "link": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/"
-  },
-  {
-    "title": "How one AI startup is helping rice farmers battle climate change",
-    "summary": "Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.",
-    "link": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/"
-  },
-  {
-    "title": "Harvard dropouts to launch \u2018always on\u2019 AI smart glasses that listen and record every conversation",
-    "summary": "After developing a facial-recognition app for Meta\u2019s Ray-Ban glasses and doxing random people, two former Harvard students are now launching a startup that makes smart glasses with an always-on microp",
-    "link": "https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/"
-  },
-  {
-    "title": "Meta to add 100MW of solar power from US gear",
-    "summary": "The social media company is adding another tranche of solar to power a new AI data center in South Carolina.",
-    "link": "https://techcrunch.com/2025/08/20/meta-to-add-100-mw-of-solar-power-from-u-s-gear/"
-  },
-  {
-    "title": "QuickCompare by Trismik",
-    "summary": "<p>\n            Compare LLMs on your data, measure, and pick the best.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/quickcompare-by-trismik?utm_campaign=produ",
-    "link": "https://www.producthunt.com/products/quickcompare-by-trismik"
-  },
-  {
-    "title": "Claude Connectors",
-    "summary": "<p>\n            New connectors in Claude for everyday life\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/claude-connectors?utm_campaign=producthunt-atom-posts-",
-    "link": "https://www.producthunt.com/products/claude-connectors"
-  },
-  {
-    "title": "GPT-5.5 by OpenAI",
-    "summary": "<p>\n            OpenAI's smartest and most intuitive to use model yet\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/openai?utm_campaign=producthunt-atom-posts-",
-    "link": "https://www.producthunt.com/products/openai"
-  },
-  {
-    "title": "Happenstance",
-    "summary": "<p>\n            Search your network with AI\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/happenstance-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_mediu",
-    "link": "https://www.producthunt.com/products/happenstance-2"
-  },
-  {
-    "title": "Edgee Team",
-    "summary": "<p>\n            Strava for your coding assistants\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/edgee?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=r",
-    "link": "https://www.producthunt.com/products/edgee"
-  }
-]
+{
+  "articles": [
+    {
+      "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
+      "link": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
+      "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI key not configured.",
+      "date": "2026-04-26 15:39:54.174547"
+    },
+    {
+      "title": "Meta bought 1 GW of solar this week",
+      "link": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
+      "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI key not configured.",
+      "date": "2026-04-26 15:39:54.174560"
+    },
+    {
+      "title": "How one AI startup is helping rice farmers battle climate change",
+      "link": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/",
+      "summary": "Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI key not configured.",
+      "date": "2026-04-26 15:39:54.174565"
+    },
+    {
+      "title": "Claude Connectors",
+      "link": "https://www.producthunt.com/products/claude-connectors",
+      "summary": "<p>\n            New connectors in Claude for everyday life\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/claude-connectors?utm_campaign=producthunt-atom-posts-",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI key not configured.",
+      "date": "2026-04-26 15:39:54.350092"
+    },
+    {
+      "title": "Happenstance",
+      "link": "https://www.producthunt.com/products/happenstance-2",
+      "summary": "<p>\n            Search your network with AI\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/happenstance-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_mediu",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI key not configured.",
+      "date": "2026-04-26 15:39:54.350107"
+    },
+    {
+      "title": "QuickCompare by Trismik",
+      "link": "https://www.producthunt.com/products/quickcompare-by-trismik",
+      "summary": "<p>\n            Compare LLMs on your data, measure, and pick the best.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/quickcompare-by-trismik?utm_campaign=produ",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI key not configured.",
+      "date": "2026-04-26 15:39:54.350112"
+    }
+  ]
+}
