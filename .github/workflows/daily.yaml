@@ -5,6 +5,9 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write   # 🔥 THIS FIXES THE 403 ERROR
+
 jobs:
   update:
     runs-on: ubuntu-latest
