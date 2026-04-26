@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 🔥 THIS FIXES THE 403 ERROR
+  contents: write
 
 jobs:
   update:
@@ -22,7 +22,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install feedparser openai
 
       - name: Run script
         run: python scripts/fetch.py
