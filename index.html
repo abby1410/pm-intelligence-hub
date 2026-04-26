@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PM Intelligence Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🚀 PM Intelligence Hub</h1>
+    <div id="content"></div>
+
+<script>
+fetch('data.json')
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById("content");
+    data.forEach(item => {
+      container.innerHTML += `
+        <div class="card">
+          <h3>${item.title}</h3>
+          <p>${item.summary}</p>
+          <a href="${item.link}" target="_blank">Read More</a>
+        </div>
+      `;
+    });
+  });
+</script>
+
+</body>
+</html>
