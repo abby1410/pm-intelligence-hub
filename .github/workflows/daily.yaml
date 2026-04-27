@@ -2,8 +2,8 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '0 1 * * *'
-  workflow_dispatch:
+    - cron: '0 1 * * *'   # Runs daily at 1 AM UTC
+  workflow_dispatch:      # Allows manual trigger
 
 permissions:
   contents: write
@@ -13,29 +13,41 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      # 1️⃣ Checkout full repo history (important for rebase)
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 2️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: pip install feedparser openai
+        run: |
+          pip install feedparser openai requests
 
-      - name: Run script
+      # 4️⃣ Run fetch script
+      - name: Run data fetch script
         run: python scripts/fetch.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
+      # 5️⃣ Commit and push safely
       - name: Commit and Push if changes exist
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase origin main
+
           git add data.json
-          git diff --cached --quiet || git commit -m "Daily update"
-          git push origin main
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily update"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
