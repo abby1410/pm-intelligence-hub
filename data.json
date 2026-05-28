@@ -7,7 +7,7 @@
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-05-27 05:11:58.130309"
+      "date": "2026-05-28 05:06:16.165462"
     },
     {
       "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
@@ -16,7 +16,7 @@
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-05-27 05:11:59.975738"
+      "date": "2026-05-28 05:06:18.114770"
     },
     {
       "title": "Meta bought 1 GW of solar this week",
@@ -25,37 +25,42 @@
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-05-27 05:12:01.986324"
+      "date": "2026-05-28 05:06:20.091988"
     },
     {
-      "title": "Rezonant",
-      "link": "https://www.producthunt.com/products/portia-ai",
-      "summary": "<p>\n            Talk, spec, ship: get your product ideas into production\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/portia-ai?utm_campaign=producthunt-atom-",
+      "title": "Powabase",
+      "link": "https://www.producthunt.com/products/powabase",
+      "summary": "<p>\n            Build AI apps with Postgres, RAG, and agents\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/powabase?utm_campaign=producthunt-atom-posts-feed&am",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-05-27 05:12:03.653518"
+      "date": "2026-05-28 05:06:21.632570"
     },
     {
-      "title": "Ormedo",
-      "link": "https://www.producthunt.com/products/ormedo",
-      "summary": "<p>\n            Let AI agents handle your entire outbound pipeline\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/ormedo?utm_campaign=producthunt-atom-posts-fee",
+      "title": "Archi-Flow",
+      "link": "https://www.producthunt.com/products/archi-flow",
+      "summary": "<p>\n            Visualize cloud architecture with live traffic simulations\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/archi-flow?utm_campaign=producthunt-at",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-05-27 05:12:05.163555"
+      "date": "2026-05-28 05:06:23.322471"
     },
     {
-      "title": "Brew",
-      "link": "https://www.producthunt.com/products/brew-5",
-      "summary": "<p>\n            Like Claude design for email marketing\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/brew-5?utm_campaign=producthunt-atom-posts-feed&amp;utm_me",
+      "title": "Oasis Browser for Mac",
+      "link": "https://www.producthunt.com/products/kahana",
+      "summary": "<p>\n            A privacy-first AI browser you can train anonymously\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/kahana?utm_campaign=producthunt-atom-posts-f",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-05-27 05:12:06.940104"
+      "date": "2026-05-28 05:06:24.802573"
     }
   ],
   "jobs": [
+    {
+      "title": "Product Manager Retail Lending &amp; Enablement",
+      "link": "https://remoteOK.com/remote-jobs/remote-product-manager-retail-lending-amp-enablement-rbc-1132348",
+      "skills": []
+    },
     {
       "title": "Website Product Owner",
       "link": "https://remoteOK.com/remote-jobs/remote-website-product-owner-ryder-system-inc-1132039",
@@ -74,11 +79,6 @@
     {
       "title": "Product Manager Data Feeds",
       "link": "https://remoteOK.com/remote-jobs/remote-product-manager-data-feeds-yipitdata-1131452",
-      "skills": []
-    },
-    {
-      "title": "VP Product",
-      "link": "https://remoteOK.com/remote-jobs/remote-vp-product-spark-advisors-1131387",
       "skills": []
     }
   ],
