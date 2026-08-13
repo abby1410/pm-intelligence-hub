@@ -1,13 +1,22 @@
 {
   "articles": [
     {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "link": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "summary": "At Ai4, three of the world's most respected AI experts \u2014 Geoffrey Hinton, Fei-Fei Li, and Andrew Ng \u2014 debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "category": "General",
+      "skills": [],
+      "why_pm_care": "AI processing failed.",
+      "date": "2026-08-13 03:23:51.466400"
+    },
+    {
       "title": "Data center demand drives 66% surge in natural gas power plant costs",
       "link": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
       "summary": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-08-12 03:20:58.896886"
+      "date": "2026-08-13 03:23:53.172608"
     },
     {
       "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
@@ -16,43 +25,34 @@
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-08-12 03:21:00.706284"
+      "date": "2026-08-13 03:23:55.282511"
     },
     {
-      "title": "Meta bought 1 GW of solar this week",
-      "link": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
-      "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
+      "title": "Swipe",
+      "link": "https://www.producthunt.com/products/swipe-9",
+      "summary": "<p>\n            Swipe right on your next customer \n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/swipe-9?utm_campaign=producthunt-atom-posts-feed&amp;utm_mediu",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-08-12 03:21:02.216849"
+      "date": "2026-08-13 03:23:56.988286"
     },
     {
-      "title": "ScreenMark",
-      "link": "https://www.producthunt.com/products/screenmark-annotation-draw",
-      "summary": "<p>\n            Menu bar app for live annotations, whiteboard overlay + more\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/screenmark-annotation-draw?utm_campa",
+      "title": "Media Sharing",
+      "link": "https://www.producthunt.com/products/argos",
+      "summary": "<p>\n            Let AI agents put screenshots and videos on pull requests\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/argos?utm_campaign=producthunt-atom-pos",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-08-12 03:21:03.748464"
+      "date": "2026-08-13 03:23:58.749803"
     },
     {
-      "title": "Vizard Agent",
-      "link": "https://www.producthunt.com/products/vizard-agent-the-first-video-agi",
-      "summary": "<p>\n            One AI agent for every kind of video\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/vizard-agent-the-first-video-agi?utm_campaign=producthunt-at",
+      "title": "CodeBurn",
+      "link": "https://www.producthunt.com/products/codeburn",
+      "summary": "<p>\n            See where your AI coding spend actually goes\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/codeburn?utm_campaign=producthunt-atom-posts-feed&am",
       "category": "General",
       "skills": [],
       "why_pm_care": "AI processing failed.",
-      "date": "2026-08-12 03:21:05.203242"
-    },
-    {
-      "title": "Octomind Cloud and Hub",
-      "link": "https://www.producthunt.com/products/octomind-plug-n-play-ai-agents",
-      "summary": "<p>\n            One login, zero API keys \u2014 cloud agents + 27 models\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/octomind-plug-n-play-ai-agents?utm_campaign=p",
-      "category": "General",
-      "skills": [],
-      "why_pm_care": "AI processing failed.",
-      "date": "2026-08-12 03:21:06.643034"
+      "date": "2026-08-13 03:24:00.820363"
     }
   ],
   "jobs": [],
